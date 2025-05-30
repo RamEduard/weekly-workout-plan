@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Tab, Tabs, Container } from 'react-bootstrap';
 import WorkoutCard, { WorkoutEntry } from './components/WorkoutCard';
+import ProgressReport from './components/ProgressReport';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const LOCAL_STORAGE_KEY = 'workoutHistory';
@@ -161,8 +162,11 @@ function App() {
         <Tab eventKey="progress" title="Progress Report">
           <div className="mt-4">
             <h4>📈 Progress Analysis</h4>
-            {/* Progress charts and analysis will be implemented here */}
-            <p className="text-muted">Your progress charts and analysis will appear here</p>
+            {workoutHistory.length === 0 ? (
+              <p className="text-muted">Complete some workouts to see your progress!</p>
+            ) : (
+              <ProgressReport workoutHistory={workoutHistory} />
+            )}
           </div>
         </Tab>
       </Tabs>
