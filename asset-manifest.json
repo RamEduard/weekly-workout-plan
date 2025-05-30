@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/weekly-workout-plan/static/css/main.9d0934b1.css",
-    "main.js": "/weekly-workout-plan/static/js/main.cfc2161e.js",
+    "main.js": "/weekly-workout-plan/static/js/main.1f472ca0.js",
     "static/js/453.33789ada.chunk.js": "/weekly-workout-plan/static/js/453.33789ada.chunk.js",
     "index.html": "/weekly-workout-plan/index.html",
     "main.9d0934b1.css.map": "/weekly-workout-plan/static/css/main.9d0934b1.css.map",
-    "main.cfc2161e.js.map": "/weekly-workout-plan/static/js/main.cfc2161e.js.map",
+    "main.1f472ca0.js.map": "/weekly-workout-plan/static/js/main.1f472ca0.js.map",
     "453.33789ada.chunk.js.map": "/weekly-workout-plan/static/js/453.33789ada.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d0934b1.css",
-    "static/js/main.cfc2161e.js"
+    "static/js/main.1f472ca0.js"
   ]
 }
